@@ -1,0 +1,13 @@
+[package]
+name = "mandelbrot-float"
+version = "0.1.0"
+authors = ["Ryan Lynch"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.2.0"
+image = "0.22.3"
+lazy_static = "1.4.0"
+rayon = "1.3.0"
