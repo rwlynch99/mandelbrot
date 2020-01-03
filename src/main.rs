@@ -7,7 +7,7 @@ use std::time::Instant;
 lazy_static! {
     static ref SETTINGS: Settings = Settings {
         area: (Complex::new(-2.0, -2.0), Complex::new(1.0, 2.0)),
-        resolution: (1024*10, 1024*10),
+        resolution: (1024, 1024),
         iterations: 18,
         escape_radius: 3.0
     };
